@@ -1,0 +1,41 @@
+* {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(236, 241, 246);
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#linked-button {
+  width: 100%;
+  padding: 0.5rem 7rem;
+}
+
+#linked-button:hover {
+  color: rgb(225, 210, 210);
+  background-color: rgb(127, 100, 153);
+  transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
